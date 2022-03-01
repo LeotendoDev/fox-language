@@ -1,20 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
+#include <errno.h>
 
 #include "parser/token.h"
 #include "utils/usage.h"
+#include "compiler/compiler.h"
 
 int main(int argc, char** argv)
 {
-    if (argc == 0 || argc % 2 == 1) {
-        printf("Error: Too few arguments!\n");
+    if (argc == 0 || argc % 2 == 0) {
+        usage_map();
         return 1;
     }
 
-    fox_usage_option("-i", "Eine coole Option");
-
-    free(argv);
+    fox_compile_intel("test.fox", "test.asm");
 
     return 0;
 }
+

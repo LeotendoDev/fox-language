@@ -1,5 +1,5 @@
-CMakeFiles/fox.dir/src/main.c.o: \
- /home/leonard/Desktop/coding/fox_lang/src/main.c \
+CMakeFiles/fox.dir/src/utils/usage.c.o: \
+ /home/leonard/Desktop/coding/fox_lang/src/utils/usage.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/bits/libc-header-start.h /usr/include/features.h \
  /usr/include/features-time64.h /usr/include/bits/wordsize.h \
@@ -30,10 +30,7 @@ CMakeFiles/fox.dir/src/main.c.o: \
  /usr/include/bits/pthreadtypes-arch.h \
  /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
  /usr/include/bits/struct_rwlock.h /usr/include/alloca.h \
- /usr/include/bits/stdlib-float.h /usr/include/errno.h \
- /usr/include/bits/errno.h /usr/include/linux/errno.h \
- /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
- /usr/include/asm-generic/errno-base.h \
- /home/leonard/Desktop/coding/fox_lang/src/parser/token.h \
- /home/leonard/Desktop/coding/fox_lang/src/utils/usage.h \
- /home/leonard/Desktop/coding/fox_lang/src/compiler/compiler.h
+ /usr/include/bits/stdlib-float.h /usr/include/string.h \
+ /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
+ /usr/include/strings.h \
+ /home/leonard/Desktop/coding/fox_lang/src/utils/usage.h

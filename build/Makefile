@@ -129,6 +129,30 @@ fox/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fox.dir/build.make CMakeFiles/fox.dir/build
 .PHONY : fox/fast
 
+src/compiler/compiler.o: src/compiler/compiler.c.o
+.PHONY : src/compiler/compiler.o
+
+# target to build an object file
+src/compiler/compiler.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fox.dir/build.make CMakeFiles/fox.dir/src/compiler/compiler.c.o
+.PHONY : src/compiler/compiler.c.o
+
+src/compiler/compiler.i: src/compiler/compiler.c.i
+.PHONY : src/compiler/compiler.i
+
+# target to preprocess a source file
+src/compiler/compiler.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fox.dir/build.make CMakeFiles/fox.dir/src/compiler/compiler.c.i
+.PHONY : src/compiler/compiler.c.i
+
+src/compiler/compiler.s: src/compiler/compiler.c.s
+.PHONY : src/compiler/compiler.s
+
+# target to generate assembly for a file
+src/compiler/compiler.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fox.dir/build.make CMakeFiles/fox.dir/src/compiler/compiler.c.s
+.PHONY : src/compiler/compiler.c.s
+
 src/main.o: src/main.c.o
 .PHONY : src/main.o
 
@@ -177,6 +201,30 @@ src/parser/token.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fox.dir/build.make CMakeFiles/fox.dir/src/parser/token.c.s
 .PHONY : src/parser/token.c.s
 
+src/utils/usage.o: src/utils/usage.c.o
+.PHONY : src/utils/usage.o
+
+# target to build an object file
+src/utils/usage.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fox.dir/build.make CMakeFiles/fox.dir/src/utils/usage.c.o
+.PHONY : src/utils/usage.c.o
+
+src/utils/usage.i: src/utils/usage.c.i
+.PHONY : src/utils/usage.i
+
+# target to preprocess a source file
+src/utils/usage.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fox.dir/build.make CMakeFiles/fox.dir/src/utils/usage.c.i
+.PHONY : src/utils/usage.c.i
+
+src/utils/usage.s: src/utils/usage.c.s
+.PHONY : src/utils/usage.s
+
+# target to generate assembly for a file
+src/utils/usage.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fox.dir/build.make CMakeFiles/fox.dir/src/utils/usage.c.s
+.PHONY : src/utils/usage.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +234,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... fox"
+	@echo "... src/compiler/compiler.o"
+	@echo "... src/compiler/compiler.i"
+	@echo "... src/compiler/compiler.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
 	@echo "... src/parser/token.o"
 	@echo "... src/parser/token.i"
 	@echo "... src/parser/token.s"
+	@echo "... src/utils/usage.o"
+	@echo "... src/utils/usage.i"
+	@echo "... src/utils/usage.s"
 .PHONY : help
 
 
