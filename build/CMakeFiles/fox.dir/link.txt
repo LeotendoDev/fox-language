@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/fox.dir/src/main.c.o CMakeFiles/fox.dir/src/parser/token.c.o CMakeFiles/fox.dir/src/utils/usage.c.o CMakeFiles/fox.dir/src/compiler/compiler.c.o -o fox 
