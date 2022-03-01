@@ -12,5 +12,6 @@
 #define FOX_VERSION           "0.1-a"
 #define FOX_RELEASE_DATE      "2022-03-01"
 #define FOX_CHECKSUM          "<NOT IMPLEMENTED>"
+#define FOX_BUILD_VERSION      "0.119212"
 
 #endif
