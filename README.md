@@ -27,3 +27,6 @@ call build-win.bat
 ```
 bash build-linux.sh
 ```
+
+## Documentation
+The documentation is also in the github repository, the docu is in the ```DOCUMENTATION.md``` file.
