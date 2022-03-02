@@ -23,4 +23,4 @@ Hello, World!
 ```
 
 ## Challange
-Change the program so that instead of "Hello, World!" the text "Hello, Fox!" indicates.
+Change the program so that instead of ```Hello, World!``` the text ```Hello, Fox!``` indicates.
