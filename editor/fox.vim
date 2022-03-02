@@ -6,7 +6,7 @@ set iskeyword=a-z,A-Z,-,*,_,!,@
 syntax keyword foxTodos TODO XXX FIXME NOTE
 
 " Language keywords
-syntax keyword foxKeywords print input if else elif func end push pop peek sizeof import export buffer typeof
+syntax keyword foxKeywords print input if else elif func end return push pop peek sizeof import export buffer typeof
 
 " Comments
 syntax region foxCommentLine start="//" end="$"   contains=foxTodos
