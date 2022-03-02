@@ -1,3 +1,0 @@
-/home/leonard/Desktop/coding/fox-language/build/CMakeFiles/fox.dir
-/home/leonard/Desktop/coding/fox-language/build/CMakeFiles/edit_cache.dir
-/home/leonard/Desktop/coding/fox-language/build/CMakeFiles/rebuild_cache.dir
