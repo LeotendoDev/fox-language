@@ -1,11 +1,3 @@
-// SPDX-License Identifier: GPL-2.0-only
-/*
- * parser/token.h
- *
- * Copyright (C) 2022  Leonard Steinhoff
- *
-*/
-
 #ifndef _FOX_TOKEN_H_
 #define _FOX_TOKEN_H_
 
