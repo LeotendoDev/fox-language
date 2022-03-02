@@ -19,4 +19,5 @@ CMakeFiles/fox.dir/compiler/compiler.c.o: \
  /usr/include/assert.h /usr/include/errno.h /usr/include/bits/errno.h \
  /usr/include/linux/errno.h /usr/include/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
- /home/leonard/Desktop/coding/fox-language/compiler/compiler.h
+ /home/leonard/Desktop/coding/fox-language/compiler/compiler.h \
+ /home/leonard/Desktop/coding/fox-language/compiler/assembly_sets.h
