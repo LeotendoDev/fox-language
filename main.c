@@ -3,7 +3,7 @@
 #include <errno.h>
 
 #include "parser/token.h"
-#include "utils/usage.h"
+#include "lib/usage.h"
 #include "compiler/compiler.h"
 
 int main(int argc, char** argv)
