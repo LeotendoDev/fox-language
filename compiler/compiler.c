@@ -4,6 +4,7 @@
 #include <errno.h>
 
 #include "compiler.h"
+#include "assembly_sets.h"
 
 int fox_compile_intel(char* source, char* output)
 {
@@ -13,12 +14,8 @@ int fox_compile_intel(char* source, char* output)
         return 1;
     }
 
-    fprintf(output_stream, "global _start:\n");
-    fprintf(output_stream, "_start:\n");
-    fprintf(output_stream, "   mov eax, 1\n");
-    fprintf(output_stream, "   mov ebx, 0\n");
-    fprintf(output_stream, "   int 0x80\n");
-
+    fprintf(output_stream, TEST_ASSEMBLY);
+    
     return 0;
 }
 

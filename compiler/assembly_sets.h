@@ -1,7 +1,7 @@
 #ifndef _ASSEMBLY_SETS_H_
 #define _ASSEMBLY_SETS_H_
 
-const char* BASE_ASSEMBLY = 
+const char* TEST_ASSEMBLY = 
 """                         \
                             \
 global _start               \
@@ -19,7 +19,7 @@ _start:                     \
     int 0x80                \
                             \
 section .data:              \
-    msg: db \"Hello, World!\", 0xA  \
+    msg: db \"Hello, Fox!\", 0xA  \
     len: equ $ - msg                \
 """;
 
