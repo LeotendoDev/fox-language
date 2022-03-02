@@ -8,10 +8,7 @@
 
 int main(int argc, char** argv)
 {
-    struct arg_options* options = handle_args(argv); 
-
-    printf("SOURCE FILE: %s\n", options->source_file);
-    printf("OUTPUT FILE: %s\n", options->output_file);
+    int compile_exitcode = fox_compile_intel("examples/test.fox", "examples/output.asm");
 
     return 0;
 }
