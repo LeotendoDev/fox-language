@@ -12,5 +12,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Test
+      - name: Test
       run: echo "NOT IMPLEMENTED YET"
