@@ -1,7 +1,3 @@
-import "std/iostream.fox"
+# A simple Hello World Program!
 
-func main -> int
-  print "Hello, World!"
-  return 0
-end
-
+print "Hello, World!"
