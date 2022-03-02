@@ -13,7 +13,7 @@ print "Hello, World!"
 
 ```
 $ fox -i hello.fox -o hello
-./hello
+$ ./hello
 ```
 
 Now you will see something like this:
