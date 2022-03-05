@@ -13,4 +13,4 @@ jobs:
 
     steps:
       - name: Test
-      run: echo "NOT IMPLEMENTED YET"
+      - run: echo "NOT IMPLEMENTED YET"
